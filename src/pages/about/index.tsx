@@ -18,6 +18,7 @@ export default class Index extends Component<PropsWithChildren> {
     return (
       <View className='index'>
         <Text>About page without howxm widget</Text>
+        <howxm-widget  path="pages/about/index"/>
       </View>
     )
   }

@@ -71,7 +71,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "react-refresh": "^0.11.0",
     "stylelint": "^14.4.0",
-    "taro-plugin-howxm": "0.0.1",
+    "taro-plugin-howxm": "0.0.2",
     "typescript": "^4.1.0",
     "webpack": "5.69.0"
   },
