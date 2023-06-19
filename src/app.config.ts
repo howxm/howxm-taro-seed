@@ -9,6 +9,22 @@ export default defineAppConfig({
     navigationBarTitleText: 'WeChat',
     navigationBarTextStyle: 'black'
   },
+  tabBar: {
+    custom: true,
+    color: '#000000',
+    selectedColor: '#000000',
+    backgroundColor: '#000000',
+    list: [
+      {
+        pagePath: 'pages/index/index',
+        text: '首页',
+      },
+      {
+        pagePath: 'pages/about/index',
+        text: '关于我',
+      },
+    ],
+  },
   "plugins": {
     "howxm-plugin": {
       "version": "1.18.2",

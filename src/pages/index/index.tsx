@@ -35,7 +35,7 @@ export default class Index extends Component<PropsWithChildren> {
       <View className='index'>
         <Text>Home page with howxm-widget!</Text>
         <Button onClick={this.handleClick}>trigger event</Button>
-        <howxm-widget path="pages/index/index" />
+        <howxm-widget path="pages/index/index" appId="eb918802-6027-4ba9-80bd-5bf4cdd69a88" />
       </View>
     )
   }
