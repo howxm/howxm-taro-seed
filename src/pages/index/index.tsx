@@ -19,6 +19,7 @@ export default class Index extends Component<PropsWithChildren> {
   handleClick = () => {
     howxm.event(
       'taro', // 必填
+      {},
       function (data) {
         // 成功回调
         console.log('howxm.event成功回调', JSON.stringify(data))
@@ -35,7 +36,7 @@ export default class Index extends Component<PropsWithChildren> {
       <View className='index'>
         <Text>Home page with howxm-widget!</Text>
         <Button onClick={this.handleClick}>trigger event</Button>
-        <howxm-widget path="pages/index/index" appId="eb918802-6027-4ba9-80bd-5bf4cdd69a88" />
+        <howxm-widget path="pages/index/index" />
       </View>
     )
   }

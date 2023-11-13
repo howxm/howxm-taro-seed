@@ -5,9 +5,7 @@ import './app.scss'
 
 class App extends Component<PropsWithChildren> {
 
-  componentDidMount () {}
-
-  componentDidShow () {
+  componentDidMount () {
     howxm.debug(true)
     howxm.init(
       'eb918802-6027-4ba9-80bd-5bf4cdd69a88',
@@ -21,6 +19,9 @@ class App extends Component<PropsWithChildren> {
         console.log('howxm.init失败回调', JSON.stringify(err))
       }
     )
+  }
+
+  componentDidShow () {
   }
 
   componentDidHide () {}
