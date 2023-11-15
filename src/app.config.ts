@@ -27,7 +27,7 @@ export default defineAppConfig({
   },
   "plugins": {
     "howxm-plugin": {
-      "version": "1.18.2",
+      "version": "2.0.1",
       "provider": "wx37a782d0c8107a02"
     }
   },
