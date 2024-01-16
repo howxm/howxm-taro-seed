@@ -3,6 +3,13 @@ export default defineAppConfig({
     'pages/index/index',
     'pages/about/index',
   ],
+  subPackages: [
+    {
+      root: 'moduleA',
+      pages: ['one/index'],
+      independent: true,
+    },
+  ],
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',

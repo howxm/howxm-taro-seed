@@ -17,6 +17,10 @@ export default class Index extends Component {
       {
         pagePath: '/pages/about/index',
         text: '关于我'
+      },
+      {
+        pagePath: '/pages/sub/sub-one/index',
+        text: '分包'
       }
     ]
   }

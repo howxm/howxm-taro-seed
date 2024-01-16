@@ -1,3 +1,4 @@
+const path = require('path')
 const config = {
   projectName: 'howxm-taro-seed-5',
   date: '2023-5-8',
@@ -9,8 +10,10 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
-  // plugins: [path.join(process.cwd(), '/plugin/index.js')],
-  plugins: ['taro-plugin-howxm'],
+  // plugins: [path.join(process.cwd(), '/plugin/index.ts')],
+  plugins: [['taro-plugin-howxm', {
+    pageFolders: ['pages', 'moduleA']
+  }]],
   defineConstants: {
   },
   copy: {
